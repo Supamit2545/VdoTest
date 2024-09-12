@@ -1,0 +1,69 @@
+.Live-Video{
+    width: 1200px;
+    height: 675px;
+    background: gray;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.Live{
+    width: 100%;
+}
+.showchat{
+    overflow: auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.Live-body{
+    display: flex;
+    justify-content: center;
+}
+.Live-Profile{
+    width: 25%;
+    border: 2px solid gray;
+}
+.ProfileIMG{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+.Live-Chat{
+    background: rgb(235, 233, 233);
+    width: 100%;
+    height: 75%;
+}
+.Chats{
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+}
+.Input-Chat{
+    display: flex;
+    width: 100%;
+    margin-top: -3%;
+}
+.Input{
+    width: 85%;
+    height: 50%;
+    padding: 10px;
+    margin-top: 10%;
+    border: 2px solid black;
+    border-radius: 10px 0px 0px 10px;
+}
+.SubmitButton{
+    width: 100px;
+    height: 45px;
+    margin-top: 10%;
+    border: 2px solid black;
+    border-radius: 0px 10px 10px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: skyblue;
+    font-weight: bold;
+}
+.SubmitButton:hover{
+    background: rgb(0, 110, 255);
+}

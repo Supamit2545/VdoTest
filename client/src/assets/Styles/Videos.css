@@ -1,0 +1,87 @@
+.Videos-Container{
+    height: 811px;
+}
+.Games-Cards{
+    width: 200px;
+    height: 304px;
+    border: 2px solid black;
+    border-radius: 20px;
+    animation: ReSelectGames 250ms ease-in forwards;
+}
+.Games-Cards:hover{
+    animation: SelectGames 250ms ease-in forwards;
+}
+.Games-IMG{
+    width: auto;
+    height: 300px;
+    border-radius: 17px;
+}
+.Recent-Videos{
+    width: 95%;
+    margin-top:2%;
+    margin-left: 2%;
+    height: 350px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 16px;
+    background: rgb(197, 195, 195);
+    overflow: auto;
+    scrollbar-width: none;
+}
+.Apex-Container{
+    width: 95%;
+    height: 350px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 16px;
+    background: rgb(197, 195, 195);
+    overflow: auto;
+    scrollbar-width: none;
+}
+.Dota2-Container{
+    width: 95%;
+    height: 350px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 16px;
+    background: rgb(197, 195, 195);
+    overflow: auto;
+    scrollbar-width: none;
+}
+.RainbowSix-Container{
+    width: 95%;
+    height: 350px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 16px;
+    background: rgb(197, 195, 195);
+    overflow: auto;
+    scrollbar-width: none;
+}
+.Dungeonborne-Container{
+    width: 95%;
+    height: 350px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 16px;
+    background: rgb(197, 195, 195);
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+@keyframes SelectGames {
+    from{
+        transform: translateX(0) translateY(0);
+    }
+    to{
+        transform: translateX(-15px) translateY(-15px);
+    }
+}
+@keyframes ReSelectGames {
+    from{
+        transform: translateX(-15px) translateY(-15px);
+    }
+    to{
+        transform: translateX(0) translateY(0);
+    }
+}
